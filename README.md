@@ -16,7 +16,7 @@ npm install
 npm start
 ```
 
-3. Open http://localhost:3000/
+3. Open http://localhost:2000/
 
 Notes
 - The demo uses SQLite (data/db.sqlite). Sample data is seeded automatically.
