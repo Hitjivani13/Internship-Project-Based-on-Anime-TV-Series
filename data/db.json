@@ -1,0 +1,638 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "HitJivani",
+      "email": "user@demo.com",
+      "password": "password",
+      "role": "user",
+      "avatar": "🧑",
+      "shareToken": "share_abc123",
+      "theme": "light",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "email": "admin@demo.com",
+      "password": "adminpass",
+      "role": "admin",
+      "avatar": "👑",
+      "shareToken": "share_admin_xyz",
+      "theme": "light",
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "shows": [
+    {
+      "id": 1,
+      "title": "Jujutsu Kaisen",
+      "description": "A boy joins a secret school of Jujutsu Sorcerers to fight against Cursed Spirits and save humanity.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2020,
+      "totalEpisodes": 24,
+      "totalSeasons": 2,
+      "coverColor": "#3d5af1",
+      "coverEmoji": "⚡",
+      "tags": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/jujutsu-kaisen"
+      ],
+      "score": 8.67,
+      "popularity": 56,
+      "members": 2005115,
+      "favorites": 75009
+    },
+    {
+      "id": 2,
+      "title": "Chainsaw Man",
+      "description": "A destitute young man possessing a chainsaw devil merges with his pet devil to become a devil hunter.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2022,
+      "totalEpisodes": 12,
+      "totalSeasons": 1,
+      "coverColor": "#c0392b",
+      "coverEmoji": "🪚",
+      "tags": [
+        "Action",
+        "Gore",
+        "Shounen"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 8.71,
+      "popularity": 12,
+      "members": 1850000,
+      "favorites": 62000
+    },
+    {
+      "id": 3,
+      "title": "Spy x Family Part 2",
+      "description": "A spy, an assassin and a telepath form a fake family for their own secret missions.",
+      "genre": "Comedy",
+      "language": "Japanese",
+      "releaseYear": 2022,
+      "totalEpisodes": 13,
+      "totalSeasons": 2,
+      "coverColor": "#27ae60",
+      "coverEmoji": "🕵️",
+      "tags": [
+        "Comedy",
+        "Action",
+        "Childcare"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 8.78,
+      "popularity": 8,
+      "members": 1920000,
+      "favorites": 58000
+    },
+    {
+      "id": 4,
+      "title": "Attack on Titan",
+      "description": "What began as a survival story against giants became a complex war over freedom and truth.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2013,
+      "totalEpisodes": 87,
+      "totalSeasons": 4,
+      "coverColor": "#8e44ad",
+      "coverEmoji": "⚔️",
+      "tags": [
+        "Action",
+        "Drama",
+        "Military"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 9,
+      "popularity": 1,
+      "members": 3500000,
+      "favorites": 190000
+    },
+    {
+      "id": 5,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "description": "Two brothers use alchemy going on a journey to restore their bodies and discover the truth of the world.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2009,
+      "totalEpisodes": 64,
+      "totalSeasons": 1,
+      "coverColor": "#e67e22",
+      "coverEmoji": "🔮",
+      "tags": [
+        "Action",
+        "Fantasy",
+        "Adventure"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 9.11,
+      "popularity": 3,
+      "members": 3200000,
+      "favorites": 210000
+    },
+    {
+      "id": 6,
+      "title": "Demon Slayer",
+      "description": "A young swordsman fights to cure his demon-transformed sister and avenge his slaughtered family.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2019,
+      "totalEpisodes": 44,
+      "totalSeasons": 3,
+      "coverColor": "#e84b4b",
+      "coverEmoji": "🗡️",
+      "tags": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 8.54,
+      "popularity": 5,
+      "members": 2800000,
+      "favorites": 145000
+    },
+    {
+      "id": 7,
+      "title": "One Punch Man",
+      "description": "A superhero grows despondent because he can defeat any enemy with a single punch.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2015,
+      "totalEpisodes": 12,
+      "totalSeasons": 2,
+      "coverColor": "#f39c12",
+      "coverEmoji": "👊",
+      "tags": [
+        "Action",
+        "Comedy",
+        "Superhero"
+      ],
+      "streamingLinks": [
+        "https://www.netflix.com/"
+      ],
+      "score": 8.51,
+      "popularity": 9,
+      "members": 2400000,
+      "favorites": 100000
+    },
+    {
+      "id": 8,
+      "title": "Stranger Things",
+      "description": "A group of kids encounter supernatural forces and government conspiracies in their small Indiana town.",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2016,
+      "totalEpisodes": 34,
+      "totalSeasons": 4,
+      "coverColor": "#1a1a2e",
+      "coverEmoji": "🔦",
+      "tags": [
+        "Sci-Fi",
+        "Drama",
+        "Horror"
+      ],
+      "streamingLinks": [
+        "https://www.netflix.com/"
+      ],
+      "score": 8.7,
+      "popularity": 15,
+      "members": 1500000,
+      "favorites": 80000
+    },
+    {
+      "id": 9,
+      "title": "Breaking Bad",
+      "description": "A chemistry teacher turns methamphetamine manufacturer, evolving into a ruthless drug lord.",
+      "genre": "Drama",
+      "language": "English",
+      "releaseYear": 2008,
+      "totalEpisodes": 62,
+      "totalSeasons": 5,
+      "coverColor": "#2d6a4f",
+      "coverEmoji": "🧪",
+      "tags": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "streamingLinks": [
+        "https://www.netflix.com/"
+      ],
+      "score": 9.5,
+      "popularity": 2,
+      "members": 2100000,
+      "favorites": 165000
+    },
+    {
+      "id": 10,
+      "title": "Naruto Shippuden",
+      "description": "Naruto Uzumaki trains to master his Nine-Tails power while fighting to bring Sasuke back.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2007,
+      "totalEpisodes": 500,
+      "totalSeasons": 1,
+      "coverColor": "#d35400",
+      "coverEmoji": "🍃",
+      "tags": [
+        "Action",
+        "Adventure",
+        "Shounen"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 8.21,
+      "popularity": 10,
+      "members": 2950000,
+      "favorites": 130000
+    },
+    {
+      "id": 11,
+      "title": "Hataraku Maou-sama!",
+      "description": "A demon lord transported to modern Tokyo must work part-time to survive.",
+      "genre": "Comedy",
+      "language": "Japanese",
+      "releaseYear": 2013,
+      "totalEpisodes": 13,
+      "totalSeasons": 2,
+      "coverColor": "#8e44ad",
+      "coverEmoji": "😈",
+      "tags": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 8,
+      "popularity": 25,
+      "members": 1100000,
+      "favorites": 45000
+    },
+    {
+      "id": 12,
+      "title": "Boku no Hero Academia",
+      "description": "In a world of superheroes, a boy born without powers fights to become the greatest hero.",
+      "genre": "Action",
+      "language": "Japanese",
+      "releaseYear": 2016,
+      "totalEpisodes": 113,
+      "totalSeasons": 6,
+      "coverColor": "#2980b9",
+      "coverEmoji": "🦸",
+      "tags": [
+        "Action",
+        "Superhero",
+        "Shounen"
+      ],
+      "streamingLinks": [
+        "https://www.crunchyroll.com/"
+      ],
+      "score": 7.95,
+      "popularity": 6,
+      "members": 2200000,
+      "favorites": 85000
+    }
+  ],
+  "watchlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "showId": 11,
+      "status": "Watching",
+      "watchedEpisodes": 4,
+      "rating": null,
+      "review": "",
+      "notes": "",
+      "updatedAt": "2026-02-25"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "showId": 8,
+      "status": "Watching",
+      "watchedEpisodes": 25,
+      "rating": 8,
+      "review": "Amazing show!",
+      "notes": "",
+      "updatedAt": "2026-02-24"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "showId": 7,
+      "status": "Completed",
+      "watchedEpisodes": 12,
+      "rating": 9,
+      "review": "Season 1 was perfect comedy gold.",
+      "notes": "",
+      "updatedAt": "2026-02-20"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "showId": 6,
+      "status": "Completed",
+      "watchedEpisodes": 44,
+      "rating": 9,
+      "review": "Breathtaking animation!",
+      "notes": "",
+      "updatedAt": "2026-02-18"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "showId": 5,
+      "status": "Completed",
+      "watchedEpisodes": 64,
+      "rating": 10,
+      "review": "The greatest anime of all time.",
+      "notes": "",
+      "updatedAt": "2026-02-10"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "showId": 4,
+      "status": "Watching",
+      "watchedEpisodes": 25,
+      "rating": 9,
+      "review": "",
+      "notes": "",
+      "updatedAt": "2026-02-23"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "showId": 10,
+      "status": "On Hold",
+      "watchedEpisodes": 765,
+      "rating": 8,
+      "review": "",
+      "notes": "Too many fillers mid-series",
+      "updatedAt": "2026-02-15"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "showId": 1,
+      "status": "Plan to Watch",
+      "watchedEpisodes": 0,
+      "rating": null,
+      "review": "",
+      "notes": "",
+      "updatedAt": "2026-02-01"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 1,
+      "name": "Anime Lovers Hub",
+      "description": "A place to share recommendations and favourite moments!",
+      "creatorId": 1,
+      "showId": null,
+      "members": [
+        1
+      ],
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Jujutsu Kaisen Fan Club",
+      "description": "All things JJK — theories, episode discussions, fan art!",
+      "creatorId": 1,
+      "showId": 1,
+      "members": [
+        1,
+        2
+      ],
+      "createdAt": "2026-01-20"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "clubId": 1,
+      "userId": 1,
+      "content": "Just finished One Punch Man Season 1 — absolutely loved it! Anyone have recommendations for similar shows?",
+      "spoiler": false,
+      "likes": 8,
+      "createdAt": "2026-02-25T18:00:00Z"
+    },
+    {
+      "id": 2,
+      "clubId": 2,
+      "userId": 1,
+      "content": "Episode 5 is out. Tell us your thoughts!",
+      "spoiler": false,
+      "likes": 3,
+      "createdAt": "2026-02-25T17:30:00Z"
+    },
+    {
+      "id": 3,
+      "clubId": 1,
+      "userId": 2,
+      "content": "Hataraku Maou-sama! is now on 800,000+ members club!",
+      "spoiler": false,
+      "likes": 12,
+      "createdAt": "2026-02-24T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "clubId": 2,
+      "userId": 1,
+      "content": "Ryomen Sukuna is officially the most terrifying villain since Madara. SPOILER: The scene where he takes over...",
+      "spoiler": true,
+      "likes": 5,
+      "createdAt": "2026-02-23T15:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "showId": 5,
+      "userId": 1,
+      "content": "This is the best anime I have ever watched. The story is absolutely perfect from start to finish.",
+      "spoiler": false,
+      "likes": 24,
+      "createdAt": "2026-02-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "showId": 5,
+      "userId": 2,
+      "content": "Brotherhood surpasses the original in every way. Ed and Al's journey is emotional and thrilling.",
+      "spoiler": false,
+      "likes": 18,
+      "createdAt": "2026-02-18T14:00:00Z"
+    },
+    {
+      "id": 3,
+      "showId": 1,
+      "userId": 2,
+      "content": "JJK is peak action animation. The Shibuya arc is mind-blowing!",
+      "spoiler": false,
+      "likes": 35,
+      "createdAt": "2026-02-22T09:00:00Z"
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "clubId": 1,
+      "question": "Who is the best anime protagonist of 2022?",
+      "options": [
+        "Denji (Chainsaw Man)",
+        "Anya (Spy x Family)",
+        "Yuji (Jujutsu Kaisen)",
+        "Tanjiro (Demon Slayer)"
+      ],
+      "createdBy": 1,
+      "createdAt": "2026-02-20T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "clubId": 2,
+      "question": "Best Domain Expansion in JJK?",
+      "options": [
+        "Unlimited Void",
+        "Malevolent Shrine",
+        "Coffin of the Iron Mountain",
+        "Chimera Shadow Garden"
+      ],
+      "createdBy": 1,
+      "createdAt": "2026-02-22T00:00:00Z"
+    }
+  ],
+  "pollVotes": [
+    {
+      "id": 1,
+      "pollId": 1,
+      "userId": 1,
+      "optionIndex": 0
+    },
+    {
+      "id": 2,
+      "pollId": 2,
+      "userId": 2,
+      "optionIndex": 1
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "showId": 11,
+      "reminderDate": "2026-03-01",
+      "note": "Continue Hataraku Maou-sama Season 2!",
+      "triggered": false,
+      "createdAt": "2026-02-20"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "showId": 4,
+      "reminderDate": "2026-02-28",
+      "note": "Watch Attack on Titan finale arc",
+      "triggered": false,
+      "createdAt": "2026-02-21"
+    }
+  ],
+  "watchHistory": [
+    {
+      "id": 1,
+      "userId": 1,
+      "showId": 11,
+      "episodesWatched": 4,
+      "minutesWatched": 93,
+      "logDate": "2026-02-25"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "showId": 8,
+      "episodesWatched": 2,
+      "minutesWatched": 96,
+      "logDate": "2026-02-24"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "showId": 4,
+      "episodesWatched": 4,
+      "minutesWatched": 92,
+      "logDate": "2026-02-23"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "showId": 7,
+      "episodesWatched": 12,
+      "minutesWatched": 288,
+      "logDate": "2026-02-20"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "showId": 6,
+      "episodesWatched": 44,
+      "minutesWatched": 1056,
+      "logDate": "2026-02-18"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "showId": 5,
+      "episodesWatched": 64,
+      "minutesWatched": 1600,
+      "logDate": "2026-02-10"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "showId": 8,
+      "episodesWatched": 5,
+      "minutesWatched": 240,
+      "logDate": "2026-02-22"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "showId": 10,
+      "episodesWatched": 20,
+      "minutesWatched": 440,
+      "logDate": "2026-02-15"
+    }
+  ],
+  "_meta": {
+    "lastShowId": 12,
+    "lastUserId": 2,
+    "lastClubId": 2,
+    "lastPostId": 4,
+    "lastCommentId": 3,
+    "lastPollId": 2,
+    "lastPollVoteId": 2,
+    "lastReminderId": 2,
+    "lastWatchlistId": 8,
+    "lastHistoryId": 8
+  }
+}

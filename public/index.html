@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AnimeTrack - Official App Style</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-top">
+      <div class="logo">
+        <strong>AnimeTrack</strong> <span class="badge">THE OFFICIAL APP</span>
+      </div>
+      <div class="header-actions">
+        <i class="fa-solid fa-magnifying-glass" id="searchBtn" onclick="navTo('discover')" style="cursor: pointer;"></i>
+        <div id="bellBtn" style="position: relative; cursor: pointer;">
+          <i class="fa-solid fa-bell" onclick="openNotifications()"></i>
+        </div>
+        <img src="https://ui-avatars.com/api/?name=User&background=ffffff&color=2e51a2&length=2&bold=true" alt="Avatar"
+          class="header-avatar" id="profileBtn" onclick="navTo('profile')" style="cursor: pointer;">
+        <i class="fa-solid fa-right-from-bracket" onclick="logout()" style="cursor: pointer; font-size: 18px;"
+          title="Logout"></i>
+      </div>
+    </div>
+
+    <!-- Top Navigation Tabs (Dynamic) -->
+    <nav class="top-nav" id="topNav">
+      <!-- Injected by JS based on current page -->
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content" id="mainContent">
+    <!-- Pages will be injected here -->
+  </main>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-page="home">
+      <i class="fa-solid fa-house"></i>
+      <span>Home</span>
+    </button>
+    <button class="nav-item" data-page="discussion">
+      <i class="fa-regular fa-comments"></i>
+      <span>Discussion</span>
+    </button>
+    <button class="nav-item" data-page="discover">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <span>Discover</span>
+    </button>
+    <button class="nav-item" data-page="seasonal">
+      <i class="fa-regular fa-calendar"></i>
+      <span>Seasonal</span>
+    </button>
+    <button class="nav-item" data-page="mylist">
+      <i class="fa-solid fa-list-ul"></i>
+      <span>My List</span>
+    </button>
+  </nav>
+
+  <!-- Global Modals Container -->
+  <div id="modalContainer"></div>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
