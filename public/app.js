@@ -321,7 +321,7 @@ async function renderProfile() {
 
       <h3 class="section-title" style="margin-top: 24px;">Quick Actions</h3>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-        <div style="background: var(--card-bg); padding: 16px; border-radius: 12px; border: 1px solid var(--border); text-align: center; cursor: pointer;" onclick="toast('Copied share link!'); navigator.clipboard.writeText('http://localhost:3000/api/share/${u.shareToken}')">
+        <div style="background: var(--card-bg); padding: 16px; border-radius: 12px; border: 1px solid var(--border); text-align: center; cursor: pointer;" onclick="toast('Copied share link!'); navigator.clipboard.writeText(window.location.origin + '/api/share/${u.shareToken}')">
           <i class="fa-solid fa-share-nodes" style="font-size: 24px; color: var(--mal-blue); margin-bottom: 8px;"></i>
           <div style="font-weight: 600;">Share List</div>
         </div>
